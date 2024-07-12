@@ -1,0 +1,12 @@
+summary: Basic devel usability test
+contact: Patrik Koncity <pkoncity@redhat.com>
+test: ./runtest.sh
+duration: 5m
+enabled: true
+require:
+- gcc-c++
+- rpm
+- redhat-rpm-config
+- catch1-devel
+tag:
+- CI-Tier-1
