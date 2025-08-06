@@ -4,9 +4,10 @@ test: ./runtest.sh
 duration: 5m
 enabled: true
 require:
-- gcc-c++
-- rpm
-- redhat-rpm-config
-- catch1-devel
+  - gcc-c++
+  - rpm
+  - redhat-rpm-config
+  - catch1-devel
 tag:
-- CI-Tier-1
+  - CI-Tier-1
+id: 83a38229-fd5c-461f-9100-5797d00ad988
