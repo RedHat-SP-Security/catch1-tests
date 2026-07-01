@@ -1,4 +1,7 @@
 summary: Basic devel usability test
+description: |
+    Verify that the catch1-devel package provides usable headers by compiling
+    a C++ test program with distribution-specific build flags and running it.
 contact: Patrik Koncity <pkoncity@redhat.com>
 test: ./runtest.sh
 duration: 5m
